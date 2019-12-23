@@ -1,4 +1,5 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using DemoClass;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -11,7 +12,7 @@ namespace DemoClass.Tests
         [TestMethod()]
         public void PrintTest()
         {
-            Assert.Fail();
+            Assert.AreEqual("Hello World!", Printers.Print());
         }
     }
 }
