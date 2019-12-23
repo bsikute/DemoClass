@@ -18,7 +18,13 @@ namespace DemoClass.Tests
         [TestMethod()]
         public void AreaTest()
         {
-            Assert.AreEqual(12, Printers.Area(2,6));
+            Assert.AreEqual(12, Printers.Area(2, 6));
+        }
+
+        [TestMethod()]
+        public void AreaTest1()
+        {
+            Assert.AreEqual(48, Printers.Area(4, 12));
         }
     }
 }
