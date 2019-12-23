@@ -8,5 +8,10 @@ namespace DemoClass
         {
             return "Hello World!";
         }
+
+        public static int Area(int length, int breadth)
+        {
+            return length * breadth;
+        }
     }
 }
